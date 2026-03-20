@@ -1,0 +1,29 @@
+{
+  "name": "w3x-extract",
+  "version": "1.0.0",
+  "description": "Extract and translate Warcraft III .w3x/.w3m map files to JSON",
+  "main": "extract-map.js",
+  "bin": {
+    "w3x-extract": "./extract-map.js"
+  },
+  "scripts": {
+    "start": "node extract-map.js",
+    "extract": "node extract-map.js"
+  },
+  "keywords": [
+    "warcraft",
+    "w3x",
+    "w3m",
+    "map",
+    "extractor",
+    "json",
+    "wc3",
+    "reforged"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "stormlib-js": "^0.1.1",
+    "wc3maptranslator": "^4.0.4"
+  }
+}
